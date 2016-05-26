@@ -1,5 +1,7 @@
 require 'ostruct'
 
+# Author:: Igor
+
 class OpenTreeStruct < OpenStruct
   def initialize(hash={})
     hash.each_pair do |k,v|
